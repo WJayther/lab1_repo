@@ -1,0 +1,211 @@
+{
+  "title": "Доска объявлений",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Сущности",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Пользователь",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "ФИО",
+              "id": 27
+            },
+            "2": {
+              "title": "Телефон",
+              "id": 28
+            },
+            "3": {
+              "title": "Адрес",
+              "id": 29
+            }
+          }
+        },
+        "4": {
+          "title": "Сообщения",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "Текст",
+              "id": 26
+            },
+            "2": {
+              "title": "Фотография",
+              "id": 39,
+              "attr": {
+                "style": {
+                  "background": "#ffcc00"
+                }
+              }
+            }
+          }
+        },
+        "5": {
+          "title": "Лента",
+          "id": 19,
+          "attr": {
+            "style": {}
+          }
+        },
+        "0.5": {
+          "title": "Аватар",
+          "id": 24
+        },
+        "2.5": {
+          "title": "Стена",
+          "id": 20,
+          "ideas": {},
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "Действия",
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "Страница пользователя",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "Владелец?",
+              "id": 33,
+              "ideas": {
+                "1": {
+                  "title": "Изменить аватар",
+                  "id": 35
+                },
+                "2": {
+                  "title": "Изменить контакты",
+                  "id": 36
+                },
+                "3": {
+                  "title": "Добавить сообщение",
+                  "id": 37
+                },
+                "4": {
+                  "title": "Удалить сообщение",
+                  "id": 38
+                }
+              }
+            },
+            "2": {
+              "title": "Подписаться (follow)",
+              "id": 43
+            },
+            "3": {
+              "title": "Отписаться (unfollow)",
+              "id": 45
+            }
+          }
+        },
+        "2": {
+          "title": "Лента",
+          "id": 47
+        },
+        "0.5": {
+          "title": "Регистрация",
+          "id": 40,
+          "ideas": {
+            "1": {
+              "title": "Указать контакты",
+              "id": 41
+            },
+            "2": {
+              "title": "Выбрать аватар",
+              "id": 42
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 20,
+      "ideaIdTo": 18,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 18,
+      "ideaIdTo": 24,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 20,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 45,
+      "ideaIdTo": 47,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 37,
+      "ideaIdTo": 47,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 38,
+      "ideaIdTo": 47,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    }
+  ]
+}
